@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Puzzel</title>
+	<meta name="author" content="Mark Peele" />
+	<meta name="description" content="Alert" />
+	
+	<script src="javascript/jquery.min.js"></script>
+	<script src="javascript/functions.js"></script>
+	
+</head>
+<body>
+<h1> Puzzels </h2>
+<h2>Opdracht 1</h2>
+<form id="opdracht1">
+	  <label>Voornaam</label> <input type="text" id="voornaam" name="voornaam"><br>
+	  <label>Achternaam</label> <input type="text" id="achternaam" name="achternaam"><br>
+	  <label>Geboortejaar</label> <input type="text" id="geboortejaar" name="geboortejaar"><br>
+  <div style="cursor:pointer;" onclick="showValues();" > Verzenden </div>
+</form>
+
+<div id="resultsopdracht1"></div>
+
+<h2>Opdracht 2</h2>
+ <div>
+	 <input id="tempbox" type="text" />
+	 <br />
+	 <input id="btnCtoF" type="button" value="Convert naar Fahrenheit" />
+	 <input id="btnFtoC" type="button" value="Convert naar Celcius" />
+ </div>
+ <div id="resultsopdracht2"></div>
+ 
+ <h2>Opdracht 3</h2>
+	<label>Team 1</label> <input type="text" id="team1" name="team1"><br>
+	<label>Team 2</label> <input type="text" id="team2" name="team2"><br>
+	<div style="cursor:pointer;" onclick="checkScores();">Check</div>
+	<div id="resultsopdracht3"></div>
+	
+	
+ <h2>Opdracht 4</h2>
+	<label>Wat is het aankoopbedrag?</label> <input type="text" id="aankoop" name="aankoop"><br>
+	<div style="cursor:pointer;" onclick="checkAankoop();">Check</div>
+	<div id="resultsopdracht4"></div>
+</body>
+</html>
